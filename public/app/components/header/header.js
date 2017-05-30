@@ -8,10 +8,10 @@ angular.module('wildNoteApp')
     })
 
 function Header() {
-    this.states = [
-        {
+    this.states = [{
             name: 'home',
             displayName: 'Home'
         }
+
     ]
 }
