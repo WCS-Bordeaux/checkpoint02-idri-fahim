@@ -136,8 +136,9 @@ Ajoute un état "questions" dans ui-router, le controller du component contiendr
 qui seront affichés avec une boucle dans le template du component attaché à cet état.
 
 Sinon tu peux aussi répondre en dessous de chaque question.
-
+ 
 a) Pourquoi utiliser $resource dans angular plutôt que $http ?
+ 
 b) C'est quoi la différence entre front-end et back-end en fait ?
 c) Pourquoi je peux pas utiliser document.getElementById dans NodeJS ?
 d) Pourquoi c'est très grave d'utiliser document.getElementById dans AngularJS ?

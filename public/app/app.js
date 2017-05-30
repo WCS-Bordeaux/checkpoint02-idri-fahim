@@ -42,6 +42,10 @@ angular.module("wildNoteApp", [
                 name: "home",
                 url: "/",
                 component: "home"
+            }, {
+                name: "question",
+                url : "/questions",
+                component : "questions"
             }
 
         ];
@@ -51,10 +55,10 @@ angular.module("wildNoteApp", [
         })
         $urlRouterProvider.otherwise('/zergling')
     })
-    // .factory("Hey", function () {
-    //     return {
-    //         getConseil: () => "utilise les factory pour créer ta ressource !"
-    //     }
-    // })
+// .factory("Hey", function () {
+//     return {
+//         getConseil: () => "utilise les factory pour créer ta ressource !"
+//     }
+// })
 
 ;
